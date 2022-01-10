@@ -1,7 +1,5 @@
-// file types.ts
-
 const TYPES = {
-  Warrior: Symbol.for('Warrior'),
+  LoginRepository: Symbol.for('LoginRepository'),
   Weapon: Symbol.for('Weapon'),
   ThrowableWeapon: Symbol.for('ThrowableWeapon')
 }
