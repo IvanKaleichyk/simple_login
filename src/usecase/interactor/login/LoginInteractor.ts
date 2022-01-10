@@ -11,7 +11,7 @@ export class LoginInteractorImpl implements LoginInteractor {
   private repository: AuthRepository
 
   constructor (
-    @inject(TYPES.LoginRepository) repository: AuthRepository
+    @inject(TYPES.AuthRepository) repository: AuthRepository
   ) {
     this.repository = repository
   }

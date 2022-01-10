@@ -1,7 +1,6 @@
 const TYPES = {
-  LoginRepository: Symbol.for('LoginRepository'),
-  Weapon: Symbol.for('Weapon'),
-  ThrowableWeapon: Symbol.for('ThrowableWeapon')
+  AuthRepository: Symbol.for('AuthRepository'),
+  LoginInteractor: Symbol.for('LoginInteractor'),
 }
 
 export { TYPES }

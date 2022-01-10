@@ -7,7 +7,7 @@ export interface AuthRepository {
   login (email: string, password: string): User | null
 }
 
-class AuthRepositoryImpl implements AuthRepository {
+export class AuthRepositoryImpl implements AuthRepository {
   private users: Array<UserPost> = []
 
   login (email: string, password: string): User | null {
